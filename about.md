@@ -10,16 +10,7 @@
 
 预计提供一些服务快速入口（速查表belike）。
 
-
-先按照引用数降序合并整理文档，后续补完缺失内容
-
-先一段段的整理，按时间线整理、入学-生活，再整理学习经验以及周边内容。
-
-更多关注在一些经验性信息的补充上
-
-‍
-
-<iframe sandbox="allow-top-navigation-by-user-activation allow-same-origin allow-forms allow-scripts allow-popups" src="https://player.bilibili.com/player.html?bvid=BV1doTRz7EW6&amp;page=1&amp;high_quality=1&amp;as_wide=1&amp;allowfullscreen=true&amp;autoplay=1&amp;isOutside=true&amp;aid=114647877292086&amp;cid=30390355917&amp;p=1" data-src="" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 372px; width: 492px; margin: 0 auto;"></iframe>
+<iframe sandbox="allow-top-navigation-by-user-activation allow-same-origin allow-forms allow-scripts allow-popups" src="https://player.bilibili.com/player.html?bvid=BV1doTRz7EW6&amp;page=1&amp;high_quality=1&amp;as_wide=1&amp;allowfullscreen=true&amp;autoplay=1&amp;isOutside=true&amp;aid=114647877292086&amp;cid=30390355917&amp;p=1&amp;muted=true" data-src="" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 372px; width: 492px; margin: 0 auto;"></iframe>
 
 ## 网站架构
 
