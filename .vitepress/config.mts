@@ -8,13 +8,17 @@ export default defineConfig({
   base: "/",
   lang: 'zh-cn',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
       { text: "关于", link: "/about" },
     ],
-
+    outline: {
+      level: [2, 6],
+      label: '页面导航'
+    },
     // sidebar: [
     //   {
     //     text: "Examples",
