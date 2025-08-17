@@ -1,28 +1,29 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "NFU_CN_REF",
-  description: "A NFU(CN) REF DOC",
+  title: "南院参考信息",
+  description: "",
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: "首页", link: "/" },
+      { text: "关于", link: "/about" },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // sidebar: [
+    //   {
+    //     text: "Examples",
+    //     items: [
+    //       { text: "Markdown Examples", link: "/markdown-examples" },
+    //       { text: "Runtime API Examples", link: "/api-examples" },
+    //     ],
+    //   },
+    // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: "github", link: "https://github.com/wzj042/nfu-cn-ref" },
+    ],
   }
-})
+});
