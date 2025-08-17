@@ -15,5 +15,8 @@
   "description": "",
   "devDependencies": {
     "vitepress": "2.0.0-alpha.11"
+  },
+  "dependencies": {
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
