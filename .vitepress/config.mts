@@ -1,10 +1,12 @@
 import { defineConfig } from "vitepress";
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "南院参考信息",
   description: "",
   base: "/",
+  lang: 'zh-cn',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -26,7 +28,10 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/wzj042/nfu-cn-ref" },
     ],
   },
-     markdown: {
+  vite: {
+    plugins: [pagefindPlugin()],
+  },
+  markdown: {
         config: md => {
             // Save the original renderer and provide a fallback to prevent runtime errors.
             const _super = md.renderer.rules.image || function(tokens, idx, options, env, self) {
