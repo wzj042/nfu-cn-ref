@@ -13,10 +13,10 @@ hero:
     #   text: API Examples
     #   link: /api-examples
 
-# features:
-#   - title: Feature A
-#     link: /api-examples
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: 📅校历
+    link: 'https://www.nfu.edu.cn/xyfw/syxx/nyxl.htm'
+    details: '查看相关安排'
 #   - title: Feature B
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C

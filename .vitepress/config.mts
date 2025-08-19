@@ -13,21 +13,26 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
+      { text: "杂项", link: "/archive" },
       { text: "关于", link: "/about" },
     ],
     outline: {
       level: [2, 6],
       label: '页面导航'
     },
-    // sidebar: [
-    //   {
-    //     text: "Examples",
-    //     items: [
-    //       { text: "Markdown Examples", link: "/markdown-examples" },
-    //       { text: "Runtime API Examples", link: "/api-examples" },
-    //     ],
-    //   },
-    // ],
+    sidebar: {
+      "/archive":[
+        {
+          text: "杂项",
+          items: [
+            { text: "学校基本信息", link: "/archive/basic_info.md" },
+            { text: "上课时间", link: "/archive/class_time.md" },
+            { text: "联系方式", link: "/archive/contact.md" },
+            { text: "相关问答", link: "/archive/qa.md" },
+          ],
+        },
+    ]
+    },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/wzj042/nfu-cn-ref" },
