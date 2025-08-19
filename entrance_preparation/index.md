@@ -215,7 +215,7 @@ L型宿舍与H型宿舍最大的区别便是L型没有四层置物架（壁龛�
 
 ‍
 
-<svg style="display: block; margin: 0 auto;" width="480" height="270" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" font-family="SimHei, Microsoft YaHei, sans-serif">
+<svg style="display: block; margin: 0 auto;width:80%;" width="480" height="270" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" font-family="SimHei, Microsoft YaHei, sans-serif">
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#6D6E71" />
